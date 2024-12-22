@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A09: Security Logging and Monitoring Failures</title>
+    <link rel="stylesheet" href="cbody.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+             <img src="file:///C:/Users/hp/Downloads/alhacker.jpg" alt="OWASP Vulnerability Testing Website">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="OVTW.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+        <h1>A09: Security Logging and Monitoring Failures</h1>
+    </header>
+    <main>
+        <section>
+            <h2>What are Security Logging and Monitoring Failures?</h2>
+            <p>
+                Security logging and monitoring failures occur when a system or application does not properly log or monitor security events. This can allow attackers to gain unauthorized access to systems and data without detection, making it critical for organizations to implement effective logging and monitoring practices.
+            </p>
+        </section>
+
+        <section>
+            <h2>Common Types of Security Logging and Monitoring Failures</h2>
+            <ul>
+                <li><b>Not Logging Important Security Events:</b> Failing to log events such as failed login attempts or unauthorized access can hinder incident response.</li>
+                <li><b>Not Monitoring Logs for Suspicious Activity:</b> Logs should be actively monitored for signs of potential breaches or anomalies.</li>
+                <li><b>Not Storing Logs for Long Enough:</b> Insufficient log retention can complicate investigations of past incidents.</li>
+                <li><b>Lack of Review Processes:</b> Without a process for reviewing logs, security incidents may go undetected.</li>
+                <li><b>Insecure Logging Systems:</b> If logging systems are compromised, attackers can alter or delete logs, obscuring their activities.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Real-Life Example</h2>
+            <p>The 2013 Target data breach exemplifies the consequences of inadequate logging and monitoring, where insufficient oversight allowed attackers to exploit vulnerabilities over an extended period before detection.</p>
+        </section>
+
+        <section>
+            <h2>Tools for Practice</h2>
+            <ul>
+                <li><b>Splunk:</b> A powerful tool for searching, monitoring, and analyzing machine-generated big data via a web-style interface.</li>
+                <li><b>ELK Stack (Elasticsearch, Logstash, Kibana):</b> A collection of three open-source products that help in searching, analyzing, and visualizing log data in real time.</li>
+                <li><b>Graylog:</b> An open-source log management platform that allows you to collect, index, and analyze log data from any source.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Steps to Learn and Practice</h2>
+            <ol>
+                <li>Understand the importance of logging and monitoring in security incident detection and response.</li>
+                <li>Learn about common vulnerabilities associated with insufficient logging practices.</li>
+                <li>Practice using tools like Splunk or ELK Stack to analyze logs for suspicious activities.</li>
+                <li>Implement processes for regular review and analysis of security logs in your applications.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Practice Vulnerable Machine</h2>
+            <p>Download and set up a vulnerable machine to practice identifying security logging and monitoring failures:</p>
+            <p><a href="https://www.vulnhub.com/entry/owasp-top-10-vulnerable-applications-1%2C123/" target="_blank" class="download-link">Download Vulnerable Machine for Practice</a></p>
+
+            <p>You can also practice on platforms like:</p>
+            <ul>
+                <li><a href="https://tryhackme.com" target="_blank">TryHackMe</a></li>
+                <li><a href="https://hackthebox.com" target="_blank">HackTheBox</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Explore more about Security Logging and Monitoring Failures on the 
+           <a href="https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/" target="_blank">OWASP Official Page</a>.</p>
+    </footer>
+
+</body>
+</html>

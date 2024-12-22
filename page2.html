@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A02: Cryptographic Failures</title>
+    <link rel="stylesheet" href="cbody.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+              <img src="file:///C:/Users/hp/Downloads/alhacker.jpg" alt="OWASP Vulnerability Testing Website">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+        <h1>A02: Cryptographic Failures</h1>
+    </header>
+    <main>
+        <section>
+            <h2>What are Cryptographic Failures?</h2>
+            <p>
+                Cryptographic Failures occur when sensitive data is not properly protected through encryption, leading to unauthorized access. This includes using weak or outdated cryptographic algorithms, improper key management, and failing to encrypt sensitive data altogether.
+            </p>
+        </section>
+        
+        <section>
+            <h2>Common Exploitation Techniques</h2>
+            <ul>
+                <li>Exploiting weak encryption algorithms (e.g., MD5, SHA-1).</li>
+                <li>Intercepting data transmitted without encryption (e.g., HTTP instead of HTTPS).</li>
+                <li>Retrieving hard-coded cryptographic keys from application code.</li>
+                <li>Performing padding oracle attacks due to improper implementation.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tools for Practice</h2>
+            <ul>
+                <li><b>Hashcat:</b> A robust password recovery tool for cracking hashed passwords.</li>
+                <li><b>John the Ripper:</b> A fast password cracker to detect weak passwords.</li>
+                <li><b>CyberChef:</b> A web-based tool for encryption, encoding, and data analysis.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Steps to Learn and Practice</h2>
+            <ol>
+                <li>Study modern cryptographic algorithms and their proper implementations.</li>
+                <li>Learn to identify weak or deprecated encryption methods in applications.</li>
+                <li>Practice decrypting data encrypted with weak algorithms using tools like Hashcat.</li>
+                <li>Understand best practices for key management and data encryption.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Practice Vulnerable Machine</h2>
+            <p>
+                Download and set up a vulnerable machine to practice Cryptographic Failures:
+            </p>
+            <p>
+                <a href="https://www.vulnhub.com/entry/development-1,247/" target="_blank" class="download-link">Download Development: 1 VM</a>
+            </p>
+            <p>
+                Practice on platforms like:
+                <ul>
+                    <li><a href="https://tryhackme.com" target="_blank">TryHackMe</a></li>
+                    <li><a href="https://hackthebox.com" target="_blank">HackTheBox</a></li>
+                </ul>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>Explore more about Cryptographic Failures on the <a href="https://owasp.org/Top10/A02_2021-Cryptographic_Failures/" target="_blank">OWASP Official Page</a>.</p>
+    </footer>
+</body>
+</html>

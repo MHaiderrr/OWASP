@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A01: Broken Access Control</title>
+    <link rel="stylesheet" href="cbody.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+              <img src="file:///C:/Users/hp/Downloads/alhacker.jpg" alt="OWASP Vulnerability Testing Website">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="OVTW.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+        <h1>A01: Broken Access Control</h1>
+    </header>
+    <main>
+        <section>
+            <h2>What is Broken Access Control?</h2>
+            <p>
+                Broken Access Control is a security vulnerability that occurs when applications fail to enforce access controls consistently, allowing unauthorized users to access restricted resources or perform privileged actions.
+            </p>
+            <p>
+                For example, an attacker might escalate their privileges to access sensitive data, modify records, or delete critical files that should be out of their reach.
+            </p>
+        </section>
+        
+        <section>
+            <h2>Common Exploitation Techniques</h2>
+            <ul>
+                <li>Bypassing authentication mechanisms (e.g., URL manipulation).</li>
+                <li>Exploiting insecure object references.</li>
+                <li>Privilege escalation through improper role validation.</li>
+                <li>Accessing API endpoints without proper authorization.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tools for Practice</h2>
+            <ul>
+                <li><b>Burp Suite:</b> A popular web application security testing tool to intercept and manipulate requests.</li>
+                <li><b>OWASP ZAP:</b> A free penetration testing tool for finding vulnerabilities in web applications.</li>
+                <li><b>Postman:</b> Useful for API testing and exploring endpoints.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Steps to Learn and Practice</h2>
+            <ol>
+                <li>Understand the concept of user roles and permissions.</li>
+                <li>Learn how to bypass access control mechanisms using tools like Burp Suite.</li>
+                <li>Practice exploiting access control issues on vulnerable environments.</li>
+                <li>Study remediation techniques to ensure access controls are implemented properly.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Practice Vulnerable Machine</h2>
+            <p>
+                Download and set up a vulnerable machine to practice Broken Access Control:
+            </p>
+            <p>
+                <a href="https://www.vulnhub.com/entry/owasp-broken-web-applications-project-12%2C46/" target="_blank" class="download-link">Download OWASP Broken Web Applications Project VM</a>
+            </p>
+            <p>
+                Practice on platforms like:
+                <ul>
+                    <li><a href="https://tryhackme.com" target="_blank">TryHackMe</a></li>
+                    <li><a href="https://hackthebox.com" target="_blank">HackTheBox</a></li>
+                </ul>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>Explore more about Broken Access Control on the <a href="https://owasp.org/www-project-broken-access-control/" target="_blank">OWASP Official Page</a>.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A03: Injection</title>
+    <link rel="stylesheet" href="cbody.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+             <img src="file:///C:/Users/hp/Downloads/alhacker.jpg" alt="OWASP Vulnerability Testing Website">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="OVTW.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+        <h1>A03: Injection</h1>
+    </header>
+    <main>
+        <section>
+            <h2>What is Injection?</h2>
+            <p>
+                Injection vulnerabilities occur when untrusted data is sent to an interpreter as part of a command or query. The attacker's hostile data can trick the interpreter into executing unintended commands or accessing unauthorized data.
+            </p>
+        </section>
+        
+        <section>
+            <h2>Common Exploitation Techniques</h2>
+            <ul>
+                <li><b>SQL Injection:</b> Manipulating SQL queries to execute arbitrary commands or retrieve unauthorized data. <a href="https://owasp.org/www-community/attacks/SQL_Injection" target="_blank">Learn more</a></li>
+                <li><b>OS Command Injection:</b> Executing arbitrary operating system commands on the server. <a href="https://owasp.org/www-community/attacks/Command_Injection" target="_blank">Learn more</a></li>
+                <li><b>LDAP Injection:</b> Modifying LDAP queries to alter the intended application behavior. <a href="https://owasp.org/www-community/attacks/LDAP_Injection" target="_blank">Learn more</a></li>
+                <li><b>XPath Injection:</b> Injecting malicious data into XPath queries to access unauthorized XML data. <a href="https://owasp.org/www-community/attacks/XPath_Injection" target="_blank">Learn more</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tools for Practice</h2>
+            <ul>
+                <li><b>SQLMap:</b> An open-source tool that automates the process of detecting and exploiting SQL injection flaws.</li>
+                <li><b>Burp Suite:</b> A comprehensive platform for web application security testing, useful for identifying injection points.</li>
+                <li><b>OWASP ZAP:</b> A free security tool for finding vulnerabilities in web applications, including injection flaws.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Steps to Learn and Practice</h2>
+            <ol>
+                <li>Understand how different types of injections work and their impact on applications.</li>
+                <li>Learn to identify potential injection points in web applications.</li>
+                <li>Practice exploiting injection vulnerabilities using tools like SQLMap and Burp Suite.</li>
+                <li>Study secure coding practices to prevent injection flaws, such as using prepared statements and input validation.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Practice Vulnerable Machine</h2>
+            <p>
+                Download and set up a vulnerable machine to practice Injection attacks:
+            </p>
+            <p>
+                <a href="https://www.vulnhub.com/entry/command-injection-iso-1%2C81/" target="_blank" class="download-link">Download Command Injection ISO: 1 VM</a>
+            </p>
+            <p>
+                Practice on platforms like:
+                <ul>
+                    <li><a href="https://tryhackme.com" target="_blank">TryHackMe</a></li>
+                    <li><a href="https://hackthebox.com" target="_blank">HackTheBox</a></li>
+                </ul>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>Explore more about Injection vulnerabilities on the <a href="https://owasp.org/Top10/A03_2021-Injection/" target="_blank">OWASP Official Page</a>.</p>
+    </footer>
+</body>
+</html>
